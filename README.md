@@ -31,6 +31,10 @@ Example:
 npm init stencil app my-stencil-app
 ```
 
+### Using a proxy
+
+If you are behind a proxy, configure `https_proxy` environment variable.
+
 ## Built-in starters
 
 - [app](https://github.com/ionic-team/stencil-app-starter)
@@ -44,13 +48,13 @@ If you want to add features, clone this repo, open terminal:
 #### Install dependencies
 
 ```bash
-npm init
+npm install
 ```
 
-Then, run the development server:
+Then, compile and run the starter:
 
 ```bash
-npm start
+npm run dev
 ```
 
 And it will help you test out your changes.
